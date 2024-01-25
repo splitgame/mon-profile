@@ -51,7 +51,7 @@ a:hover {
 
 /* Custom design with class (99% of your design) */
 .container{
-	with: 500px ;
+	width: 700px ;
 	margin: 40px auto;
 
 }
