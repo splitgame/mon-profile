@@ -1,21 +1,24 @@
 body {
-background-color: #FDF0D1;
-color: black;
-font-family: helvetica;
-font-size:19px;
+	background-color: #FDF0D1;
+	color: grey;
+	font-family: 'Lora',serif;
+	font-size:15px;
+
+	text-align: center;
+
 }
 
 h1, h2, h3 {
-	font-family: Roboto;
+	font-family: 'Roboto',sans-serif;
 }
 
 
 h1 {
 	color: #85586F;
-	font-family: helvetica;
+	font-family:  helvetica;
 	font-weight: 100;
-	letter-spacing: 2px;
-	font-size: ;
+	letter-spacing: 1px;
+	font-size: 32px;
 	font-weight: bold;
 
 }
@@ -26,9 +29,76 @@ h2 {
 	font-weight: bold;
 }
 a{
+	font-family: 'Roboto',sans-serif;
 	text-decoration: none;
 	color : #AC7D88;
+	font-weight: bold;
+	font-size: 18px;
 }
 a:hover {
-	color: pink;
+	color: black;
+}
+
+
+.square{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px, 10px, 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+
+/* Custom design with class (99% of your design) */
+.container{
+	width: 700px;
+	magin: 40px auto;
+}
+
+.listing {
+	list-style: none;
+	padding-left:0px;
+}
+.listing li {
+	display: inline;
+	padding:10px;
+}
+.listing i{
+	font-size: 40px;
+	color:#AC7D88 ;
+}
+.listing i:hover{
+	color:#AC7D88;
+}
+
+
+.img-circle {
+	border-radius: 50%;
+	height: 170px;
+	width: 170px;
+
+}
+
+.BTN {
+	background-color: #AC7D88;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+@media (max-width:760px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width:500px){
+	.container {
+		width: 400px;
+	}
 }
